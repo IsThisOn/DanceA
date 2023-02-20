@@ -1,0 +1,6 @@
+framework module DanceA {
+  umbrella header "DanceA-umbrella.h"
+
+  export *
+  module * { export * }
+}
