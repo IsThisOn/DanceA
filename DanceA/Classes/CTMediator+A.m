@@ -13,5 +13,8 @@
     return  [self performTarget:@"A" action:@"controller" params:@{@"name":@"jiankaige"} shouldCacheTarget:NO];
     
 }
+-(void)actionA{
+    NSLog(@"%@",_cmd);
+}
 
 @end
